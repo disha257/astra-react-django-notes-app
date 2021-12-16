@@ -25,17 +25,17 @@ const NotePage = () => {
       .catch((err) => console.log(err));
   };
 
-  let updateNote =  () => { axios
+  let updateNote = () => {
+    axios
       .put(`/notes/${noteId}/update/`, {
         body: note,
       })
       .then((res) => {
         setNotes(res.data);
-        console.log(note)
+        console.log(note);
       })
       .catch((err) => console.log(err));
   };
-
 
   let createNote = () => {
     axios
