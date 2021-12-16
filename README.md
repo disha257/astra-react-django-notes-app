@@ -4,7 +4,7 @@ A simple Notes App running on Astra DB that levarages django-cassandra-engine
 
 ## Objectives
 * To build a simple Notes App
-* Leverage django-cassandra-engine and DataStax Astra DB
+* Leverage [django-cassandra-engine](https://github.com/r4fek/django-cassandra-engine) and DataStax Astra DB
   
 ## How this works
 We're using Create-React-App and Django-app to build the Notes App
