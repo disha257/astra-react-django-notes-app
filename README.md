@@ -74,7 +74,11 @@ npm install
 ```sh
 npm start
 ```
-4. To start the django rest framework
+4. Install the cassandra engine
+```sh
+pip3 install django-cassandra-engine
+```
+5. To start the django rest framework
 ```sh
 python3 manage.py runserver
 ```
